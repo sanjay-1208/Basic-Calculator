@@ -1,0 +1,89 @@
+
+body{
+   height: 100%;
+   width: 100%;
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 29rem;
+    width: 20rem;
+    flex-direction: column;
+    margin:auto ;
+    gap: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+ .numberbuttons{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.numberbuttons button{
+     margin:1px;
+     position: relative;
+     padding: 20px;
+     cursor: pointer;
+     border-radius: 15px;
+     border: none;
+     background-color: rgba(65, 62, 62, 0.623);
+     color: aliceblue;
+}
+ #plus{
+    padding-right: 17px;
+    background-color: rgba(255, 166, 0, 0.836);
+
+}
+#equalto{
+    padding-right: 17px;
+    background-color: rgba(255, 166, 0, 0.836);
+
+}
+.enterinput input{
+width: 210px;
+padding: 12px 0 11px 9px;
+border-radius: 14px;
+border: 1px solid rgba(0, 0, 0, 0.5);
+outline: none;
+margin-bottom: 3px;
+}
+#color{
+    background-color: rgba(255, 166, 0, 0.836);
+}
+#colors{
+    background-color: rgba(212, 206, 206, 0.493);
+    color: rgb(226, 217, 217);
+}
+.calculator{
+    box-shadow: 0 0 7px rgba(252, 251, 251, 0.863);
+}
+@media(max-width:900){
+    .calculator{
+        height: 300px;
+        width: 250px;
+        margin:auto ;
+        border-radius: 15px;
+    }
+     .numberbuttons{
+        gap: 0.5rem;
+    }
+    .numberbuttons button{
+         margin:1px;
+         padding: 20px;
+         border-radius: 15px;
+    }
+     #plus{
+        padding-right: 17px;
+    }
+    #equalto{
+        padding-right: 17px;
+    }
+    .enterinput input{
+    width: 210px;
+    padding: 12px 0 11px 9px;
+    border-radius: 14px;
+    margin-bottom: 3px;
+    }
+}
